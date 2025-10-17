@@ -4,3 +4,6 @@
   - Only use smart pointers when implying ownership.
 - I copied these classes from my task scheduler project on github, which I should steal a bit more from. 
 - I'll need to queue up client inputs to the server in order to update the global game state. 
+# 10172025
+- Today I want to design more of the simulation engine. What am I simulating? What does the game world look like?
+  - Maybe it is just an xy grid with two AI NPCs randomly moving around the grid. Players can interact with each NPC but only one player at a time.
