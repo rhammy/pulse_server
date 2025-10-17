@@ -1,15 +1,11 @@
----
-
 ## 🧠 Core Concept
 
-Your **server** is the authoritative source of truth.
+The pulse server is the authoritative source of truth.
 
 * It maintains a **global simulation state** (world, entities, positions, velocities, etc.).
 * It runs in a **tick loop** (e.g. 60 ticks per second).
 * It accepts **client commands** asynchronously (like “move”, “jump”, “cast spell”).
 * It applies those commands during the next simulation tick in a **thread-safe** way.
-
----
 
 ## ⚙️ Thread Architecture
 
