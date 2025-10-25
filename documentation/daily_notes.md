@@ -11,3 +11,4 @@
 - Players and NPC enemies are today. Also I want to get started on class diagrams. 
 - Players and NPCs will inherit from the same wizard parent class. Movement will execute differently obviously. 
 - Next I need to create a 2D map object. A coordinate grid, and maybe a struct that will contain an xy coordinate. 
+- The map will be composed of entities. 
