@@ -7,3 +7,17 @@
 - Players will be facing a direction always, from 0 to 360 degrees.
 - Players can move around in the 2D space, within bounds.
 - NPCs will attack if player within given radius.
+# Players
+- Players can move around a 2D game map. 
+- Players can face a direction within 360 degrees. 
+- Players can fire a spell in a direction.
+- Players are subject to cooldowns between spells.
+- Players can take damage from enemy spells. 
+# NPCs
+- NPCs can move around a 2D game map randomly. 
+- NPCs can face any direction. 
+- NPCs can detect and target players if they enter their field of view (given radius).
+- NPCs can fire spells in a direction.
+- NPCs will target players within their aggro radius. 
+- NPCs take damage from spells.
+- NPCs will die if their health points run out.

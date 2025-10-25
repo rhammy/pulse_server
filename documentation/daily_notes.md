@@ -7,3 +7,7 @@
 # 10172025
 - Today I want to design more of the simulation engine. What am I simulating? What does the game world look like?
   - Maybe it is just an xy grid with two AI NPCs randomly moving around the grid. Players can interact with each NPC but only one player at a time.
+# 10252025
+- Players and NPC enemies are today. Also I want to get started on class diagrams. 
+- Players and NPCs will inherit from the same wizard parent class. Movement will execute differently obviously. 
+- Next I need to create a 2D map object. A coordinate grid, and maybe a struct that will contain an xy coordinate. 
