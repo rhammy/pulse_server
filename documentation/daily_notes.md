@@ -12,3 +12,6 @@
 - Players and NPCs will inherit from the same wizard parent class. Movement will execute differently obviously. 
 - Next I need to create a 2D map object. A coordinate grid, and maybe a struct that will contain an xy coordinate. 
 - The map will be composed of entities. 
+# 11052025
+- I'm reading through chapter 2 of C++ concurrency in action. Just messing around with threads.
+
